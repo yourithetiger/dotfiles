@@ -1,1 +1,0 @@
-/home/Youri621/.config/emacs/.local/straight/repos/doom-modeline/doom-modeline-env.el
