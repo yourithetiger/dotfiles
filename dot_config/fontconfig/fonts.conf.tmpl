@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+
+  <!-- Police monospace par défaut pour tout le système -->
+  <match>
+    <edit mode="assign" name="family">
+      <string>Monaspace Radon NF</string>
+    </edit>
+  </match>
+
+  <!-- Quand une app demande "monospace" -->
+  <match target="pattern">
+    <test qual="any" name="family">
+      <string>monospace</string>
+    </test>
+    <edit name="family" mode="assign">
+      <string>Monaspace Radon NF</string>
+    </edit>
+  </match>
+
+</fontconfig>

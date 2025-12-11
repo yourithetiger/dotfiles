@@ -71,6 +71,7 @@
 ;; This will open documentation for it, including demos of how they are used.
 ;; Alternatively, use `C-h o' to look up a symbol (functions, variables, faces,
 ;; etc).
-;;
-;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
-;; they are implemented.
+
+(setq doom-font (font-spec :family "Monaspace Krypton NF" :size 14)
+      doom-variable-pitch-font (font-spec :family "Monaspace Krypton NF" :size 16)
+      doom-big-font (font-spec :family "Monaspace Krypton NF" :size 22))
